@@ -1,6 +1,7 @@
 # Weather-Forecasting-Project
 Weather Forecasting using OpenWeatherMap API and Random Forest Regressor in Python. Converts temperature data to Fahrenheit, and provides visualizations for actual vs predicted temperatures.
 This project uses data from the OpenWeatherMap API to forecast weather using a machine-learning model (Random Forest Regressor). The forecasted temperatures are converted to Fahrenheit for ease of understanding.
+This project uses historical weather data to train a linear regression model that predicts future temperatures. You can further improve the model by using more advanced techniques like ARIMA, LSTM, or other machine learning models. 
 
 ****Table of Contents**
 Features
