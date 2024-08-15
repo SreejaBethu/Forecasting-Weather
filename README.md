@@ -4,9 +4,13 @@ This project leverages the OpenWeatherMap API and machine learning techniques to
 **Table of Contents**
 
 Features
+
 Installation
+
 Project Structure
+
 Contributing
+
 License
 
  **Features**
