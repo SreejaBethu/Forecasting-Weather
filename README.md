@@ -4,13 +4,13 @@ This project leverages the OpenWeatherMap API and machine learning techniques to
 ****Table of Contents**
 Features
 Installation
-Usage
 Project Structure
 Contributing
 License
 
-1) **Features**
-    **Weather Data Retrieval:** Retrieves historical weather data from the OpenWeatherMap API.
+ **Features**
+
+   **Weather Data Retrieval:** Retrieves historical weather data from the OpenWeatherMap API.
    
     **Temperature Conversion:** Converts temperature data from Celsius to Fahrenheit for ease of understanding.
    
@@ -18,14 +18,13 @@ License
    
     **Visualization:** Provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement
 
-
-3) **Installation**
+**Installation**
 Prerequisites
 Python 3.x
 Pip (Python package installer)
 Libraries
 
-4) **You will need the following Python libraries:**
+**You will need the following Python libraries:**
 requests
 pandas
 numpy
@@ -40,13 +39,12 @@ matplotlib
     **visualizations**: Contains the visualizations comparing actual vs predicted temperatures
 
 
-5) You can install these libraries using pip: **pip install requests pandas numpy scikit-learn matplotlib**
+ You can install these libraries using pip: **pip install requests pandas numpy scikit-learn matplotlib**
 
-6) **Run the script:**
+ **Run the script:**
 You can run the script from the command line or terminal: python weather_forecast.py
 
-
-7) **Set up your environment:**
+ **Set up your environment:**
 Make sure you have Python installed on your machine. You can download it from **python.org**.
 
 **Get your OpenWeatherMap API key:**
