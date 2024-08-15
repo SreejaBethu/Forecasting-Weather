@@ -1,7 +1,5 @@
 # Weather-Forecasting-Project
-Weather Forecasting using OpenWeatherMap API and Random Forest Regressor in Python. Converts temperature data to Fahrenheit, and provides visualizations for actual vs predicted temperatures.
-This project uses data from the OpenWeatherMap API to forecast weather using a machine-learning model (Random Forest Regressor). The forecasted temperatures are converted to Fahrenheit for ease of understanding.
-This project uses historical weather data to train a linear regression model that predicts future temperatures. You can further improve the model by using more advanced techniques like ARIMA, LSTM, or other machine learning models. 
+This project leverages the OpenWeatherMap API and machine learning techniques to forecast weather temperatures. The project uses historical weather data to train a Random Forest Regressor model, which predicts future temperatures. The forecasted temperatures are converted to Fahrenheit for ease of understanding. The project also provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement.
 
 ****Table of Contents**
 Features
@@ -12,10 +10,11 @@ Contributing
 License
 
 1) **Features**
-Fetches weather data from OpenWeatherMap API
-Converts temperature from Kelvin to Celsius and then to Fahrenheit
-Uses Random Forest Regressor for forecasting temperatures
-Visualizes actual vs predicted temperatures
+    **Weather Data Retrieval:** Retrieves historical weather data from the OpenWeatherMap API
+    **Temperature Conversion:** Converts temperature data from Celsius to Fahrenheit for ease of understanding
+    **Random Forest Regressor:** Trains a Random Forest Regressor model on historical weather data to predict future temperatures
+    **Visualization:** Provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement
+
 
 2) **Installation**
 Prerequisites
@@ -30,13 +29,21 @@ numpy
 scikit-learn
 matplotlib
 
-4) You can install these libraries using pip: **pip install requests pandas numpy scikit-learn matplotlib**
+**Project Structure**
+    **data**: Contains the historical weather data retrieved from the OpenWeatherMap API
+    **models**: Holds the trained Random Forest Regressor model
+    **src**: Contains the source code for the weather forecasting system
+    **utils**: Holds utility functions for data preprocessing, feature engineering, and visualization
+    **visualizations**: Contains the visualizations comparing actual vs predicted temperatures
 
-5) **Run the script:**
+
+5) You can install these libraries using pip: **pip install requests pandas numpy scikit-learn matplotlib**
+
+6) **Run the script:**
 You can run the script from the command line or terminal: python weather_forecast.py
 
 
-6) **Set up your environment:**
+7) **Set up your environment:**
 Make sure you have Python installed on your machine. You can download it from **python.org**.
 
 **Get your OpenWeatherMap API key:**
