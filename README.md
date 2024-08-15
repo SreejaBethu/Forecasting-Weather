@@ -10,19 +10,22 @@ Contributing
 License
 
 1) **Features**
-    **Weather Data Retrieval:** Retrieves historical weather data from the OpenWeatherMap API
-    **Temperature Conversion:** Converts temperature data from Celsius to Fahrenheit for ease of understanding
-    **Random Forest Regressor:** Trains a Random Forest Regressor model on historical weather data to predict future temperatures
+    **Weather Data Retrieval:** Retrieves historical weather data from the OpenWeatherMap API.
+   
+    **Temperature Conversion:** Converts temperature data from Celsius to Fahrenheit for ease of understanding.
+   
+    **Random Forest Regressor:** Trains a Random Forest Regressor model on historical weather data to predict future temperatures.
+   
     **Visualization:** Provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement
 
 
-2) **Installation**
+3) **Installation**
 Prerequisites
 Python 3.x
 Pip (Python package installer)
 Libraries
 
-3) **You will need the following Python libraries:**
+4) **You will need the following Python libraries:**
 requests
 pandas
 numpy
