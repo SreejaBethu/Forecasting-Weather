@@ -11,12 +11,12 @@ License
  **Features**
 
    **Weather Data Retrieval:** Retrieves historical weather data from the OpenWeatherMap API.
+
+  **Temperature Conversion:** Converts temperature data from Celsius to Fahrenheit for ease of understanding.
    
-    **Temperature Conversion:** Converts temperature data from Celsius to Fahrenheit for ease of understanding.
+  **Random Forest Regressor:** Trains a Random Forest Regressor model on historical weather data to predict future temperatures.
    
-    **Random Forest Regressor:** Trains a Random Forest Regressor model on historical weather data to predict future temperatures.
-   
-    **Visualization:** Provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement
+  **Visualization:** Provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement
 
 **Installation**
 Prerequisites
