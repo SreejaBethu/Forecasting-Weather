@@ -1,4 +1,4 @@
-# Weather-Forecasting-Project
+# Forecasting-Weather
 This project leverages the OpenWeatherMap API and machine-learning techniques to forecast weather temperatures. The project uses historical weather data to train a Random Forest Regressor model, which predicts future temperatures. The forecasted temperatures are converted to Fahrenheit for ease of understanding. The project also provides visualizations to compare actual vs predicted temperatures, allowing for model evaluation and improvement.
 
 ## Table of Contents
